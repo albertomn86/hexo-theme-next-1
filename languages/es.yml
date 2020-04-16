@@ -15,6 +15,7 @@ menu:
   schedule: Calendario
   sitemap: Mapa del sitio
   commonweal: Commonweal 404
+  frequencies: Listado de frecuencias
 sidebar:
   overview: Inicio
   toc: Tabla de contenidos
@@ -95,3 +96,4 @@ symbols_count_time:
   time: Tiempo de lectura
   time_total: Tiempo total de lectura
   time_minutes: minutos.
+coauthor: Autor
