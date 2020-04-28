@@ -77,6 +77,16 @@
             {%- endif %}
           {%- endif %}
 
+          {%- if post.author  %}
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-user"></i>
+                </span>
+                <span class="post-meta-item-text">{{ __('post.created') }}</span>
+                <span>{{ post.author }}</span>
+              </span>
+          {%- endif %}
+
           {%- if post.categories and post.categories.length and theme.post_meta.categories %}
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -222,19 +232,6 @@
         {{ partial('_partials/post/post-reward.swig') }}
       {%- endif %}
 
-      <div class="likely">
-        <div class="facebook">Compartir</div>
-        <div class="twitter" data-via="sdr_esp">Compartir</div>
-        <div class="linkedin">Compartir</div>
-        <div class="telegram">Enviar</div>
-        <div class="whatsapp">Enviar</div>
-      </div>
-      <script src="https://unpkg.com/ilyabirman-likely@2/release/likely.js" type="text/javascript"></script>
-
-      {%- if theme.creative_commons.license and theme.creative_commons.post %}
-        {{ partial('_partials/post/post-copyright.swig') }}
-      {%- endif %}
-
       {%- if theme.follow_me %}
         {{ partial('_partials/post/post-followme.swig', {}, {cache: theme.cache.enable}) }}
       {%- endif %}
@@ -251,6 +248,19 @@
               <a href="{{ url_for(tag.path) }}" rel="tag">{{ tag_indicate }} {{ tag.name }}</a>
             {%- endfor %}
           </div>
+        {%- endif %}
+
+        <div class="likely">
+          <div class="facebook">Compartir</div>
+          <div class="twitter" data-via="sdr_esp">Compartir</div>
+          <div class="linkedin">Compartir</div>
+          <div class="telegram">Enviar</div>
+          <div class="whatsapp">Enviar</div>
+        </div>
+        <script src="https://unpkg.com/ilyabirman-likely@2/release/likely.js" type="text/javascript"></script>
+
+        {%- if theme.creative_commons.license and theme.creative_commons.post %}
+          {{ partial('_partials/post/post-copyright.swig') }}
         {%- endif %}
 
         {{ partial('_partials/post/post-footer.swig', {}, {cache: theme.cache.enable}) }}

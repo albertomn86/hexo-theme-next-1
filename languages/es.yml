@@ -18,7 +18,7 @@ menu:
   frequencies: Listado de frecuencias
 sidebar:
   overview: Inicio
-  toc: Tabla de contenidos
+  toc: Contenidos
 post:
   posted: Publicado el
   edited: Editado el
@@ -37,7 +37,7 @@ post:
     post_author: Written by
     post_link: This article originally appeared on
     license_title: Copyright
-    license_content: "Todos los artículos de este blog están licenciados bajo %s a no ser que se especifique una licencia adicional."
+    license_content: "Todos los artículos de este sitio están licenciados bajo %s a no ser que se especifique una licencia adicional."
 footer:
   powered: "Creado mediante %s"
   total_views: Visitas totales
