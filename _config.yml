@@ -149,7 +149,7 @@ social:
   Twitter: https://twitter.com/sdr_esp || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
-  #YouTube: https://youtube.com/yourname || fab fa-youtube
+  YouTube: https://www.youtube.com/channel/UCoGAWwxJqds9iTIJCUyaSRA || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
   RSS: /atom.xml || fa fa-rss
@@ -857,7 +857,7 @@ pace:
 # Dependencies: https://github.com/theme-next/theme-next-pace
 # For more information: https://github.com/HubSpot/pace
 pace:
-  enable: true
+  enable: false
   # Themes list:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
