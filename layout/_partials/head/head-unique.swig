@@ -12,5 +12,3 @@
     lang   : '{{ page.lang }}'
   };
 </script>
-
-<link href="https://unpkg.com/ilyabirman-likely@2/release/likely.css" rel="stylesheet">

@@ -250,15 +250,6 @@
           </div>
         {%- endif %}
 
-        <div class="likely">
-          <div class="facebook">Compartir</div>
-          <div class="twitter" data-via="sdr_esp">Compartir</div>
-          <div class="linkedin">Compartir</div>
-          <div class="telegram">Enviar</div>
-          <div class="whatsapp">Enviar</div>
-        </div>
-        <script src="https://unpkg.com/ilyabirman-likely@2/release/likely.js" type="text/javascript"></script>
-
         {%- if theme.creative_commons.license and theme.creative_commons.post %}
           {{ partial('_partials/post/post-copyright.swig') }}
         {%- endif %}
