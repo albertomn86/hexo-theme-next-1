@@ -270,10 +270,10 @@ reward:
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
-  #Twitter: https://twitter.com/sdr_esp || fab fa-twitter
-  #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-  #RSS: /atom.xml || fa fa-rss
+  Twitter: https://twitter.com/sdr_esp || fab fa-twitter
+  YouTube: https://www.youtube.com/channel/UCoGAWwxJqds9iTIJCUyaSRA || fab fa-youtube
+  Telegram: https://t.me/sdr_es || fab fa-telegram-plane
+  RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -368,7 +368,7 @@ codeblock:
     dark: prism-dark
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Available values: default | flat | mac
     style: flat
 
@@ -515,7 +515,7 @@ needmoreshare:
     options:
       iconStyle: box
       boxForm: horizontal
-      position: topCenter
+      position: bottomCenter
       networks: Twitter,Facebook,Linkedin,Reddit,GoogleBookmarks
   float:
     enable: false
