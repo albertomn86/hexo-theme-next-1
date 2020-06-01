@@ -7,7 +7,7 @@ title:
   schedule: Calendario
 menu:
   home: Inicio
-  archives: Archivo
+  archives: Publicaciones
   categories: Categorías
   tags: Etiquetas
   about: Sobre mi
@@ -16,6 +16,7 @@ menu:
   sitemap: Mapa del sitio
   commonweal: Commonweal 404
   frequencies: Listado de frecuencias
+  first-steps: Primeros pasos
 sidebar:
   overview: Inicio
   toc: Contenidos

@@ -86,11 +86,12 @@ menu:
   #about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
-  #archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
+  first-steps: /primeros-pasos/ || fa fa-map-signs
   frequencies: /frecuencias/ || fa fa-list-ul
+  archives: /archives/ || fa fa-archive
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
