@@ -3,6 +3,7 @@
 
 <div class="post-copyright">
 <ul>
+  <!--
   <li class="post-copyright-author">
     {%- if page.author %}
       <strong>{{ __('post.copyright.post_author') + __('symbol.colon') }} </strong>
@@ -21,6 +22,7 @@
       {{ next_url(page.permalink, page.permalink, {title: page.title}) }}
     {%- endif %}
   </li>
+  -->
   <li class="post-copyright-license">
     <strong>{{ __('post.copyright.license_title') + __('symbol.colon') }} </strong>
     {{- __('post.copyright.license_content', next_url(ccURL, ccIcon + ccText)) }}

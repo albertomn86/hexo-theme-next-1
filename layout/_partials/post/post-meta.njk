@@ -29,6 +29,16 @@
     </span>
   {%- endif %}
 
+  {%- if post.author  %}
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-user"></i>
+      </span>
+      <span class="post-meta-item-text">{{ __('post.created') }}</span>
+      <span>{{ post.author }}</span>
+    </span>
+  {%- endif %}
+
   {%- if post.categories and post.categories.length and theme.post_meta.categories %}
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
