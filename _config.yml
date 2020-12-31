@@ -91,6 +91,7 @@ menu:
   #commonweal: /404/ || fa fa-heartbeat
   first-steps: /primeros-pasos/ || fa fa-map-signs
   frequencies: /frecuencias/ || fa fa-list-ul
+  bands-plan: /plan-bandas/ || fa fa-broadcast-tower
   archives: /archives/ || fa fa-archive
 
 # Enable / Disable menu icons / item badges.
