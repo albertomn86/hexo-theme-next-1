@@ -149,7 +149,7 @@ social:
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   Twitter: https://twitter.com/sdr_esp || fab fa-twitter
-  Telegram: https://t.me/sdr_es || fab fa-telegram-plane
+  Telegram: https://t.me/+yAJm5SK8ZE5lZTg0 || fab fa-telegram-plane
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   YouTube: https://www.youtube.com/channel/UCoGAWwxJqds9iTIJCUyaSRA || fab fa-youtube
@@ -476,7 +476,7 @@ exturl_icon: true
 
 # Google Webmaster tools verification.
 # See: https://developers.google.com/search
-google_site_verification:
+google_site_verification: "zvjkvYHg6-B9vMVEvFFO8k4UMoFzQQ1tTyQBdG8c-so"
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmasters
@@ -864,7 +864,7 @@ mermaid:
 # Use Animate.css to animate everything.
 # For more information: https://animate.style
 motion:
-  enable: true
+  enable: false
   async: true
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
